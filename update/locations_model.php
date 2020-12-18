@@ -79,6 +79,7 @@ from locations WHERE  location_status = 1
         return null;
     }
 }
+//โชว์location ทั้งหมดในdatabase
 function get_all_locations()
 {
     $con = mysqli_connect("localhost", 'root', '', 'cp251project');
